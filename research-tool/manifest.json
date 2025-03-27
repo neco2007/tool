@@ -1,0 +1,36 @@
+{
+  "manifest_version":3,
+  "name":"出品登録ツール V2(フルセット版) オプション：ebay対応",
+  "version":"2.1",
+  "content_scripts":[
+    {
+      "matches":[
+        "https://page.auctions.yahoo.co.jp/jp/auction/*",
+        "https://auctions.yahoo.co.jp/search/*",
+        "https://jp.mercari.com/item/*",
+        "https://jp.mercari.com/search*",
+        "https://item.fril.jp/*",
+        "https://fril.jp/s*",
+        "https://fril.jp/category/*",
+        "https://paypayfleamarket.yahoo.co.jp/item/*",
+        "https://paypayfleamarket.yahoo.co.jp/search/*",
+        "https://paypayfleamarket.yahoo.co.jp/category/*",
+        "https://www.ebay.com/*"
+      ],
+      "js":[
+        "jquery-3.6.0.min.js",
+        "content.js",
+        "mercari.js"
+      ],
+      "css": [
+        "content.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [{
+    "resources": [
+      "data/*"
+    ],
+    "matches": ["<all_urls>"]
+  }]
+}

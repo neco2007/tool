@@ -1,0 +1,69 @@
+.research-tool {
+    text-align: center;
+    margin: 0.5rem;
+}
+.research-tool .amazon-btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #6c757d;
+    border: solid 2px #6c757d;
+    border-radius: 3px;
+    transition: .4s;
+    background: white;
+    margin: 0.5rem;
+}
+.research-tool .amazon-btn:hover {
+    background: #6c757d;
+    color: white;
+}
+.research-tool .send-btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #0d6efd;
+    border: solid 2px #0d6efd;
+    border-radius: 3px;
+    transition: .4s;
+    background: white;
+    margin: 0.5rem;
+}
+.research-tool .send-btn:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+.research-tool-list {
+    text-align: center;
+    /*margin: 0.5rem;*/
+}
+.research-tool-list .amazon-btn {
+    display: inline-block;
+    padding: 1em 1em;
+    text-decoration: none;
+    color: #6c757d;
+    border: solid 2px #6c757d;
+    border-radius: 3px;
+    transition: .4s;
+    background: white;
+    margin: 0.5rem;
+}
+.research-tool-list .amazon-btn:hover {
+    background: #6c757d;
+    color: white;
+}
+.research-tool-list .send-btn {
+    display: inline-block;
+    padding: 1em 1em;
+    text-decoration: none;
+    color: #0d6efd;
+    border: solid 2px #0d6efd;
+    border-radius: 3px;
+    transition: .4s;
+    background: white;
+    margin: 0.5rem;
+}
+.research-tool-list .send-btn:hover {
+    background: #0d6efd;
+    color: white;
+}
